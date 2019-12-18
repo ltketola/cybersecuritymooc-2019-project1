@@ -1,5 +1,7 @@
 # cybersecuritymooc-2019-project1
 
+This file is recommended to read in raw mode.
+
 This course project includes a web application that has five different flaws from the OWASP top ten list (https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf).
 
 FLAW 1:
