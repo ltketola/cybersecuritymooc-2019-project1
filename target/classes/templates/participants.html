@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Participants</title>
+    </head>
+    <body>
+
+        <h1>People, who have signed up for this event</h1>
+        <p th:each="item : ${list}">
+            <span th:utext="${item.getName()}"></span>
+            <span th:utext="${item.getAddress()}"></span>
+        </p>
+        
+        <p></p>
+        <p><a href="/password">Change your password</a></p>
+        
+        <p></p>
+        <p><a href="/form">Back to start</a></p>
+    </body>
+</html>
